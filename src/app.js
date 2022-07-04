@@ -26,7 +26,7 @@ app.get("/weather", (req,res)=> {
 });
 app.get("*", (req,res)=> {
     res.render("404error", {
-        errorMsg: "We are sorry for the incovenience"
+        errorMsg: "We are sorry for the incovenience!"
     });
 });
 
